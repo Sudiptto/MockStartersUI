@@ -24,18 +24,18 @@ function App() {
            <br />
 
           {/* FluentUI button component */}
-          <div className="button-container">
+            <div className="button-container">
               <ActionButton 
-                text="Interviewee" 
-                onClick={() => console.log('Interviewee clicked')}
+              text="Interviewee" 
+              onClick={() => window.location.href = '/joinInterview'}
               />
-                <RoadRageText color="#FFFFFF" titleText="OR" min='2.5rem' middle='3vw' max='3rem' style={{marginBottom:'5rem'}}  />
+              <RoadRageText color="#FFFFFF" titleText="OR" min='2.5rem' middle='3vw' max='3rem' style={{marginBottom:'5rem'}}  />
 
               <ActionButton 
-                text="Interviewer" 
-                onClick={() => console.log('Interviewer clicked')}
+              text="Interviewer" 
+              onClick={() => window.location.href = '/joinInterview'}
               />
-          </div>
+            </div>
           
           <br />
           <br/>

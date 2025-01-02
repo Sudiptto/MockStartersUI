@@ -1,6 +1,4 @@
 /* Component for generating random mock interview tips (like mojang ) */
-
-import React from 'react';
 import RoadRageText from './roadRageText';
 
 const Tips = () => {
